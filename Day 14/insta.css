@@ -1,0 +1,124 @@
+body{
+    min-height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+     gap:100px;
+     margin: 20px 0px;
+}
+
+.main-cont{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap :10px;
+ 
+}
+.container{
+    border: 1px solid #ccc; 
+    padding: 25px;
+}
+.container1{
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.instamain{
+    display: flex;
+    flex-direction: column;
+}
+.logo{
+    text-align: center;
+    padding: 10px;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  
+}
+.inputs input{
+    padding: 9px;
+     border-radius: 2px;
+     border: 1px solid #ccc;
+    background-color: #f8f7f7;
+    outline: none;
+}
+input:focus {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Slightly stronger shadow on focus */
+}
+button{
+    padding: 7px;
+    margin-top: 8px;
+    background-color: #0095F6;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.fblogin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fblogin img{
+    width: 15px;
+    height: 15px;
+    margin: 0px 8px 0px 0px;
+}
+.fblogin p{
+    font-size: 14px;
+    color: #385185;
+    font-weight: 500;
+    cursor: pointer;
+}
+.centerline{
+    text-align: center;
+    font-size: 14px;
+   
+    
+}
+.forgot{
+    text-align: center;
+}
+.forgot a{
+    font-size: 13px;
+    text-decoration: none;
+    color: #00376B;
+
+    
+}
+.container1 p{
+    font-size: 14px;
+}
+.container1 a{
+    text-decoration: none;
+    color: #0095F6;
+    font-weight: 500;
+}
+.get-app{
+    text-align: center;
+    font-size: 14px;
+    margin-top: -10px;
+}
+.get-app .images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10px;
+}
+#play{
+    width: 185px;
+    cursor: pointer;
+}
+#micro{
+    width: 135px;
+    border-radius: 5px;
+    cursor: pointer;
+}
