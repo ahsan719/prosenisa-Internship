@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    font-family: 'poppins' , sans-serif;
+    background-color: rgb(248, 252, 255);
+}
+.main-container{
+   
+    max-width: 35%;
+    margin: auto;
+    padding: 10px;
+}
+.name-date{
+    padding: 2px 15px;
+}
+.main-container .heading{
+      color: rgba(0, 0, 0, 0.594);
+}
+.main-container .activity{
+    font-size: 12px;
+    margin-top: -12px;
+    color: rgba(0, 0, 0, 0.594);
+}
+.box{
+
+    background-color: white;
+    padding: 1px 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    
+}
+.box .message{
+    color: rgba(0, 0, 0, 0.747);
+    font-size: 14px;
+    line-height: 1.3;
+    
+}
+.box .update{
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.747);
+    margin-top: -7px;
+}
+.box .detail{
+    font-size: 14px;
+    color: rgb(8, 193, 225);
+    font-weight: 600;
+    margin-top: -4px;
+    cursor: pointer;
+    
+}
+.money{
+    font-weight: 700;
+}
+.imgs{
+    background-color: rgba(0, 0, 0, 0.395);
+    width: fit-content;
+    border-radius: 50%;
+    height: 50px;
+   
+}
+.images{
+    display: flex;
+    gap: 35px;
+    margin-bottom: 15px;
+    margin-left: 46px;
+    align-items: center;
+}
+.plus{
+    background-color: white;
+    font-size: 45px;
+    width: 50px;
+    text-align: center;
+}
