@@ -1,0 +1,132 @@
+body{
+    font-family: 'poppins' , sans-serif;
+    background-color: rgb(242, 239, 239);
+}
+.card-data{
+   
+}
+.card-body{
+    max-width: 30%;
+    border: 1px solid #ccc;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 0 1px 3px 1px rgba(201, 201, 201, 0.5);
+}
+.card-content{
+   
+    padding: 5px;
+    max-width: 90%;
+    margin: auto;
+    background-color: rgb(65, 141, 248);
+    color: white;
+    border-radius: 15px;
+}
+.namedetails{
+    display: flex;
+    justify-content: space-around;
+}
+.activ{
+    font-weight: 600;
+}
+.price{
+    text-align: right;
+    position: relative;
+    right: 120px;
+}
+.name-card{
+    color: rgb(189, 194, 194);
+    font-weight: 800;
+}
+.debit-visa{
+    color: rgb(189, 194, 194);
+    
+  
+}
+.name-card .card-num{
+    margin-top: -15px;
+}
+.debit-visa .visa{
+    margin-top: -15px;
+    font-size: 19px;
+    font-weight: bolder;
+    font-style:  italic;
+}
+.debit-visa .debit{
+   font-size: 14px;
+   font-weight: 400;
+   
+}
+.content-section{
+    display: flex;
+}
+.content1{
+    width: 50%;
+    margin-top: 10%;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.box{
+    background-color: white;
+    font-size: 12px;
+    width: 70%;
+    text-align: center;
+    border-radius: 10px;
+}
+.box .heading{
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.619);
+}
+.box .h-price{
+    font-weight: 800;
+    color: rgb(21, 74, 190);
+    margin-top: -10px;
+}
+.box .date{
+    color: rgba(0, 0, 0, 0.441);
+    font-weight: 600;
+    margin-top: -10px;
+}
+.content2{
+    width: 50%;
+    background-color: white;
+    margin-top: 10%;
+    font-size: 13px;
+    padding: 7px;
+    border-radius: 10px;
+    
+}
+
+.text .day{
+    font-size: 11px;
+    font-weight: bolder;
+    color: rgba(0, 0, 0, 0.619);
+}
+.text .date{
+    color: rgba(0, 0, 0, 0.441);
+    font-weight: 600;
+    margin-top: -10px;
+    font-size: 10px;
+    
+}
+.mainh{
+    font-size: 12px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.619);
+}
+.text{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.balance{
+    font-size: 12px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.619);
+    
+}
+
+
